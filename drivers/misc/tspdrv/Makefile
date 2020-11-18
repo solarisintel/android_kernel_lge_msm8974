@@ -26,4 +26,5 @@
 # =========================================================================
 
 obj-$(CONFIG_TSPDRV)	+= tspdrv.o imm_timed_output.o
+CFLAGS_tspdrv.o += -Idrivers/misc/tspdrv
 
